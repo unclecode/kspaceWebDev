@@ -1,0 +1,118 @@
+{
+  "task1.kpg": {
+    "hash": "24462c5b90b2d6fd15abdfc1f8ac46b1",
+    "files": {
+      "index.html": {
+        "editor": true,
+        "fileName": "index.html"
+      },
+      "app.css": {
+        "editor": true,
+        "fileName": "app.css"
+      },
+      "app.js": {
+        "editor": true,
+        "fileName": "app.js"
+      },
+      "lecture.mp4": {
+        "youtube": false,
+        "autoplay": false,
+        "control": true,
+        "url": "https://sample-videos.com/video123/mp4/480/big_buck_bunny_480p_10mb.mp4",
+        "mime": "video/mp4",
+        "fileName": "lecture.mp4",
+        "locator": true
+      },
+      "lecture.yte": {
+        "autoplay": false,
+        "control": true,
+        "youtube": true,
+        "url": "https://www.youtube.com/embed/Px8e2A18YmE?start=1713",
+        "fileName": "lecture.yte",
+        "locator": true
+      },
+      "lecture.mp3": {
+        "autoplay": false,
+        "control": true,
+        "mime": "audio/mpeg",
+        "url": "https://sample-videos.com/audio/mp3/wave.mp3",
+        "fileName": "lecture.mp3",
+        "locator": true
+      },
+      "scooter.gif": {
+        "url": "https://cdn.dribbble.com/users/31664/screenshots/6459831/scooter_dribbble.gif",
+        "fileName": "scooter.gif",
+        "locator": true
+      },
+      "world.png": {
+        "url": "https://cdn.dribbble.com/users/788099/screenshots/6453678/sailing_yacht_kit8-net.png",
+        "fileName": "world.png",
+        "locator": true
+      }
+    },
+    "libs": {
+      "scripts": [
+        "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"
+      ],
+      "css": []
+    }
+  },
+  "task2.kpg": {
+    "hash": "24462c5b90b2d6fd15abdfc1f8ac46b1",
+    "files": {
+      "index.html": {
+        "editor": true,
+        "fileName": "index.html"
+      },
+      "app.css": {
+        "editor": true,
+        "fileName": "app.css"
+      },
+      "app.js": {
+        "editor": true,
+        "fileName": "app.js"
+      },
+      "lecture.mp4": {
+        "youtube": false,
+        "autoplay": false,
+        "control": true,
+        "url": "https://sample-videos.com/video123/mp4/480/big_buck_bunny_480p_10mb.mp4",
+        "mime": "video/mp4",
+        "fileName": "lecture.mp4",
+        "locator": true
+      },
+      "lecture.yte": {
+        "autoplay": false,
+        "control": true,
+        "youtube": true,
+        "url": "https://www.youtube.com/embed/Px8e2A18YmE?start=1713",
+        "fileName": "lecture.yte",
+        "locator": true
+      },
+      "lecture.mp3": {
+        "autoplay": false,
+        "control": true,
+        "mime": "audio/mpeg",
+        "url": "https://sample-videos.com/audio/mp3/wave.mp3",
+        "fileName": "lecture.mp3",
+        "locator": true
+      },
+      "scooter.gif": {
+        "url": "https://cdn.dribbble.com/users/31664/screenshots/6459831/scooter_dribbble.gif",
+        "fileName": "scooter.gif",
+        "locator": true
+      },
+      "world.png": {
+        "url": "https://cdn.dribbble.com/users/788099/screenshots/6453678/sailing_yacht_kit8-net.png",
+        "fileName": "world.png",
+        "locator": true
+      }
+    },
+    "libs": {
+      "scripts": [
+        "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"
+      ],
+      "css": []
+    }
+  }
+}

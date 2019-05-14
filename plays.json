@@ -4,15 +4,18 @@
     "files": {
       "index.html": {
         "editor": true,
-        "fileName": "index.html"
+        "fileName": "index.html",
+        "src":"git"
       },
       "app.css": {
         "editor": true,
-        "fileName": "app.css"
+        "fileName": "app.css",
+        "src":"git"
       },
       "app.js": {
         "editor": true,
-        "fileName": "app.js"
+        "fileName": "app.js",
+        "src":"git"
       },
       "lecture.mp4": {
         "youtube": false,

@@ -5,17 +5,20 @@
       "index.html": {
         "editor": true,
         "fileName": "index.html",
-        "src":"git"
+        "src":"git",
+        "fileType":"code"
       },
       "app.css": {
         "editor": true,
         "fileName": "app.css",
-        "src":"git"
+        "src":"git",
+        "fileType":"code"
       },
       "app.js": {
         "editor": true,
         "fileName": "app.js",
-        "src":"git"
+        "src":"git",
+        "fileType":"code"
       },
       "lecture.mp4": {
         "youtube": false,
@@ -24,7 +27,8 @@
         "url": "https://sample-videos.com/video123/mp4/480/big_buck_bunny_480p_10mb.mp4",
         "mime": "video/mp4",
         "fileName": "lecture.mp4",
-        "locator": true
+        "locator": true,
+        "fileType":"video"
       },
       "lecture.yte": {
         "autoplay": false,
@@ -32,7 +36,8 @@
         "youtube": true,
         "url": "https://www.youtube.com/embed/Px8e2A18YmE?start=1713",
         "fileName": "lecture.yte",
-        "locator": true
+        "locator": true,
+        "fileType":"video"
       },
       "lecture.mp3": {
         "autoplay": false,
@@ -40,17 +45,20 @@
         "mime": "audio/mpeg",
         "url": "https://sample-videos.com/audio/mp3/wave.mp3",
         "fileName": "lecture.mp3",
-        "locator": true
+        "locator": true,
+        "fileType":"audio"
       },
       "scooter.gif": {
         "url": "https://cdn.dribbble.com/users/31664/screenshots/6459831/scooter_dribbble.gif",
         "fileName": "scooter.gif",
-        "locator": true
+        "locator": true,
+        "fileType":"image"
       },
       "world.png": {
         "url": "https://cdn.dribbble.com/users/788099/screenshots/6453678/sailing_yacht_kit8-net.png",
         "fileName": "world.png",
-        "locator": true
+        "locator": true,
+        "fileType":"image"
       }
     },
     "libs": {

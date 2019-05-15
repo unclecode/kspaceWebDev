@@ -1,5 +1,6 @@
 {
   "task1.kpg": {
+    "name":"task1.kpg",
     "hash": "24462c5b90b2d6fd15abdfc1f8ac46b1",
     "files": {
       "index.html": {
@@ -69,6 +70,7 @@
     }
   },
   "task2.kpg": {
+    "name": "task2.kpg",
     "hash": "24462c5b90b2d6fd15abdfc1f8ac46b1",
     "files": {
       "index.html": {

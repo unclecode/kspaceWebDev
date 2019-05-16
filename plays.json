@@ -90,7 +90,7 @@
                 "fileLocatorType": "normal",
                 "content": "/* test1.js Ì†æÌ¥ìÌ†ΩÌ±ç */",
                 "fileType": "code",
-                "changeState": "modified",
+                "changeState": "",
                 "gitContentApiUrl": "https://api.github.com/repos/unclecode/kspaceWebDev/contents/task1.kpg/test1.js",
                 "gitRawUrl": "https://raw.githubusercontent.com/unclecode/kspaceWebDev/master/task1.kpg/test1.js",
                 "gitHtmlUrl": "https://github.com/unclecode/kspaceWebDev/blob/master/task1.kpg/test1.js",

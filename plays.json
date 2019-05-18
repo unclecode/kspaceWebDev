@@ -88,7 +88,7 @@
                 "fileName": "test1.js",
                 "path": "test1.js",
                 "fileLocatorType": "normal",
-                "content": "/* test1.js Ì†æÌ¥ìÌ†ΩÌ±ç */",
+                "content": "/* test1.js ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ */",
                 "fileType": "code",
                 "changeState": "",
                 "gitContentApiUrl": "https://api.github.com/repos/unclecode/kspaceWebDev/contents/task1.kpg/test1.js",
@@ -102,7 +102,7 @@
                 "fileName": "test2.js",
                 "path": "test2.js",
                 "fileLocatorType": "normal",
-                "content": "/* test2.js Ì†æÌ¥ìÌ†ΩÌ±ç */",
+                "content": "/* test2.js ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ */",
                 "fileType": "code",
                 "changeState": "",
                 "gitContentApiUrl": "https://api.github.com/repos/unclecode/kspaceWebDev/contents/task1.kpg/test2.js",
@@ -126,6 +126,8 @@
             "index.html": {
                 "editor": true,
                 "fileName": "index.html",
+                "src": "git",
+                "fileType": "code",                
                 "gitContentApiUrl": "https://api.github.com/repos/unclecode/kspaceWebDev/contents/task2.kpg/index.html",
                 "gitRawUrl": "https://raw.githubusercontent.com/unclecode/kspaceWebDev/master/task2.kpg/index.html",
                 "gitHtmlUrl": "https://github.com/unclecode/kspaceWebDev/blob/master/task2.kpg/index.html",
@@ -135,6 +137,8 @@
             "app.css": {
                 "editor": true,
                 "fileName": "app.css",
+                "src": "git",
+                "fileType": "code",                
                 "gitContentApiUrl": "https://api.github.com/repos/unclecode/kspaceWebDev/contents/task2.kpg/app.css",
                 "gitRawUrl": "https://raw.githubusercontent.com/unclecode/kspaceWebDev/master/task2.kpg/app.css",
                 "gitHtmlUrl": "https://github.com/unclecode/kspaceWebDev/blob/master/task2.kpg/app.css",
@@ -144,6 +148,8 @@
             "app.js": {
                 "editor": true,
                 "fileName": "app.js",
+                "src": "git",
+                "fileType": "code",                
                 "gitContentApiUrl": "https://api.github.com/repos/unclecode/kspaceWebDev/contents/task2.kpg/app.js",
                 "gitRawUrl": "https://raw.githubusercontent.com/unclecode/kspaceWebDev/master/task2.kpg/app.js",
                 "gitHtmlUrl": "https://github.com/unclecode/kspaceWebDev/blob/master/task2.kpg/app.js",
@@ -157,6 +163,7 @@
                 "url": "https://sample-videos.com/video123/mp4/480/big_buck_bunny_480p_10mb.mp4",
                 "mime": "video/mp4",
                 "fileName": "lecture.mp4",
+                "fileType": "video",
                 "locator": true,
                 "path": "lecture.mp4"
             },
@@ -166,6 +173,7 @@
                 "youtube": true,
                 "url": "https://www.youtube.com/embed/Px8e2A18YmE?start=1713",
                 "fileName": "lecture.yte",
+                "fileType": "video",
                 "locator": true,
                 "path": "lecture.yte"
             },
@@ -175,6 +183,7 @@
                 "mime": "audio/mpeg",
                 "url": "https://sample-videos.com/audio/mp3/wave.mp3",
                 "fileName": "lecture.mp3",
+                "fileType": "audio",
                 "locator": true,
                 "path": "lecture.mp3"
             },
@@ -182,12 +191,14 @@
                 "url": "https://cdn.dribbble.com/users/31664/screenshots/6459831/scooter_dribbble.gif",
                 "fileName": "scooter.gif",
                 "locator": true,
-                "path": "scooter.gif"
+                "path": "scooter.gif",
+                "fileType": "image"
             },
             "world.png": {
                 "url": "https://cdn.dribbble.com/users/788099/screenshots/6453678/sailing_yacht_kit8-net.png",
                 "fileName": "world.png",
                 "locator": true,
+                "fileType": "image",
                 "path": "world.png"
             }
         },

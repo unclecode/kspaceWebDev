@@ -238,18 +238,19 @@
                 "changeStatus": ""
             },
             "app.js": {
-                "content": "//console.log('hello world')",
-                "changeState": "added",
+                "content": "console.log('hello world')",
+                "changeState": "",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "app.js",
                 "path": "app.js",
                 "url": "",
-                "src": "git"
+                "src": "git",
+                "changeStatus": ""
             },
             "readme.md": {
-                "content": "This is a new playground, and make your best play here ������",
-                "changeState": "added",
+                "content": "This is a new playground, and make your best play here",
+                "changeState": "modified",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "readme.md",
@@ -267,7 +268,9 @@
         "caption": "task3.kpg",
         "changesLog": {
             "edited": {
-                "index.html": 14
+                "index.html": 14,
+                "readme.md": 2,
+                "app.js": 2
             }
         },
         "changeState": "added"

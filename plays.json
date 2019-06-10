@@ -25,7 +25,8 @@
                 "gitRawUrl": "https://raw.githubusercontent.com/unclecode/kspaceWebDev/master/task1.kpg/app.css",
                 "gitHtmlUrl": "https://github.com/unclecode/kspaceWebDev/blob/master/task1.kpg/app.css",
                 "url": "https://cdn.jsdelivr.net/gh/unclecode/kspaceWebDev/task1.kpg/app.css",
-                "path": "app.css"
+                "path": "app.css",
+                "content": "body {\n  color:green;\n}\n"
             },
             "app.js": {
                 "editor": true,
@@ -36,7 +37,8 @@
                 "gitRawUrl": "https://raw.githubusercontent.com/unclecode/kspaceWebDev/master/task1.kpg/app.js",
                 "gitHtmlUrl": "https://github.com/unclecode/kspaceWebDev/blob/master/task1.kpg/app.js",
                 "url": "https://cdn.jsdelivr.net/gh/unclecode/kspaceWebDev/task1.kpg/app.js",
-                "path": "app.js"
+                "path": "app.js",
+                "content": "console.log('hello from app.js')"
             },
             "lecture.mp4": {
                 "youtube": false,
@@ -117,7 +119,8 @@
                 "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"
             ],
             "css": []
-        }
+        },
+        "changesLog": {}
     },
     "task2.kpg": {
         "name": "task2.kpg",
@@ -127,7 +130,7 @@
                 "editor": true,
                 "fileName": "index.html",
                 "src": "git",
-                "fileType": "code",                
+                "fileType": "code",
                 "gitContentApiUrl": "https://api.github.com/repos/unclecode/kspaceWebDev/contents/task2.kpg/index.html",
                 "gitRawUrl": "https://raw.githubusercontent.com/unclecode/kspaceWebDev/master/task2.kpg/index.html",
                 "gitHtmlUrl": "https://github.com/unclecode/kspaceWebDev/blob/master/task2.kpg/index.html",
@@ -138,7 +141,7 @@
                 "editor": true,
                 "fileName": "app.css",
                 "src": "git",
-                "fileType": "code",                
+                "fileType": "code",
                 "gitContentApiUrl": "https://api.github.com/repos/unclecode/kspaceWebDev/contents/task2.kpg/app.css",
                 "gitRawUrl": "https://raw.githubusercontent.com/unclecode/kspaceWebDev/master/task2.kpg/app.css",
                 "gitHtmlUrl": "https://github.com/unclecode/kspaceWebDev/blob/master/task2.kpg/app.css",
@@ -149,7 +152,7 @@
                 "editor": true,
                 "fileName": "app.js",
                 "src": "git",
-                "fileType": "code",                
+                "fileType": "code",
                 "gitContentApiUrl": "https://api.github.com/repos/unclecode/kspaceWebDev/contents/task2.kpg/app.js",
                 "gitRawUrl": "https://raw.githubusercontent.com/unclecode/kspaceWebDev/master/task2.kpg/app.js",
                 "gitHtmlUrl": "https://github.com/unclecode/kspaceWebDev/blob/master/task2.kpg/app.js",
@@ -207,6 +210,56 @@
                 "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"
             ],
             "css": []
-        }
+        },
+        "changesLog": {}
+    },
+    "task3.kpg": {
+        "files": {
+            "index.html": {
+                "content": "<p>Hello World</p>",
+                "changeState": "added",
+                "editor": true,
+                "fileType": "code",
+                "fileName": "index.html",
+                "path": "index.html",
+                "url": ""
+            },
+            "app.css": {
+                "content": "body {}",
+                "changeState": "added",
+                "editor": true,
+                "fileType": "code",
+                "fileName": "app.css",
+                "path": "app.css",
+                "url": ""
+            },
+            "app.js": {
+                "content": "//console.log('hello world')",
+                "changeState": "added",
+                "editor": true,
+                "fileType": "code",
+                "fileName": "app.js",
+                "path": "app.js",
+                "url": ""
+            },
+            "readme.md": {
+                "content": "This is a new playground, and make your best play here Ì†ΩÌ∏ç",
+                "changeState": "added",
+                "editor": true,
+                "fileType": "code",
+                "fileName": "readme.md",
+                "path": "readme.md",
+                "url": ""
+            }
+        },
+        "hash": "",
+        "lins": {
+            "scripts": [],
+            "css": []
+        },
+        "name": "task3.kpg",
+        "caption": "task3.kpg",
+        "changesLog": {},
+        "changeState": "added"
     }
 }

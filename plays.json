@@ -120,7 +120,8 @@
             ],
             "css": []
         },
-        "changesLog": {}
+        "changesLog": {},
+        "changeState": ""
     },
     "task2.kpg": {
         "name": "task2.kpg",
@@ -266,13 +267,7 @@
         },
         "name": "task3.kpg",
         "caption": "task3.kpg",
-        "changesLog": {
-            "edited": {
-                "index.html": 14,
-                "readme.md": 2,
-                "app.js": 2
-            }
-        },
-        "changeState": "added"
+        "changesLog": {},
+        "changeState": ""
     }
 }

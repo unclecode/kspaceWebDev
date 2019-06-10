@@ -218,7 +218,7 @@
         "files": {
             "index.html": {
                 "content": "<p>Hello World</p>\n",
-                "changeState": "modified",
+                "changeState": "",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "index.html",
@@ -268,12 +268,7 @@
         },
         "name": "task3.kpg",
         "caption": "task3.kpg",
-        "changesLog": {
-            "edited": {
-                "index.html": 4,
-                "readme.md": 1
-            }
-        },
-        "changeState": "added"
+        "changesLog": {},
+        "changeState": ""
     }
 }

@@ -217,23 +217,25 @@
         "files": {
             "index.html": {
                 "content": "<p>Hello World 123456</p>\n",
-                "changeState": "modified",
+                "changeState": "",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "index.html",
                 "path": "index.html",
                 "url": "",
-                "src": "git"
+                "src": "git",
+                "changeStatus": ""
             },
             "app.css": {
                 "content": "body {}",
-                "changeState": "added",
+                "changeState": "",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "app.css",
                 "path": "app.css",
                 "url": "",
-                "src": "git"
+                "src": "git",
+                "changeStatus": ""
             },
             "app.js": {
                 "content": "//console.log('hello world')",

@@ -217,7 +217,7 @@
     "task3.kpg": {
         "files": {
             "index.html": {
-                "content": "<p>Hello World 123456</p>\n",
+                "content": "<p>Hello World</p>\n",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -267,7 +267,11 @@
         },
         "name": "task3.kpg",
         "caption": "task3.kpg",
-        "changesLog": {},
-        "changeState": ""
+        "changesLog": {
+            "edited": {
+                "index.html": 2
+            }
+        },
+        "changeState": "added"
     }
 }

@@ -251,7 +251,7 @@
             },
             "readme.md": {
                 "content": "This is a new playground, and make your best play here.123",
-                "changeState": "modified",
+                "changeState": "",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "readme.md",
@@ -268,12 +268,7 @@
         },
         "name": "task3.kpg",
         "caption": "task3.kpg",
-        "changesLog": {
-            "edited": {
-                "index.html": 2,
-                "readme.md": 4
-            }
-        },
-        "changeState": "added"
+        "changesLog": {},
+        "changeState": ""
     }
 }

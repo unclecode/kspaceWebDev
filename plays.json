@@ -218,7 +218,7 @@
         "files": {
             "index.html": {
                 "content": "<p>Hello World</p>\n",
-                "changeState": "",
+                "changeState": "modified",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "index.html",
@@ -250,14 +250,15 @@
                 "changeStatus": ""
             },
             "readme.md": {
-                "content": "This is a new playground, and make your best play here",
-                "changeState": "modified",
+                "content": "This is a new playground, and make your best play here.",
+                "changeState": "",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "readme.md",
                 "path": "readme.md",
                 "url": "",
-                "src": "git"
+                "src": "git",
+                "changeStatus": ""
             }
         },
         "hash": "",
@@ -269,7 +270,8 @@
         "caption": "task3.kpg",
         "changesLog": {
             "edited": {
-                "index.html": 2
+                "index.html": 4,
+                "readme.md": 1
             }
         },
         "changeState": "added"

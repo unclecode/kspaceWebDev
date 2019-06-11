@@ -217,7 +217,7 @@
     "task3.kpg": {
         "files": {
             "index.html": {
-                "content": "<p>Hello World</p>\n",
+                "content": "<p>Hello World</p>",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -239,7 +239,7 @@
                 "changeStatus": ""
             },
             "app.js": {
-                "content": "console.log('hello world')",
+                "content": "console.log('hello worldzzzz')",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",

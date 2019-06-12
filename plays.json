@@ -392,7 +392,7 @@
     "task6.kpg": {
         "files": {
             "index.html": {
-                "content": "<p>Hello World </p>",
+                "content": "<p>Hello World</p>",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",

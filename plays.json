@@ -13,8 +13,8 @@
                 "gitHtmlUrl": "https://github.com/unclecode/kspaceWebDev/blob/master/task1.kpg/index.html",
                 "url": "https://cdn.jsdelivr.net/gh/unclecode/kspaceWebDev/task1.kpg/index.html",
                 "path": "index.html",
-                "content": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n        <title>Hello</title>\n        meta\n    </head>\n    <body>\n        body\n    </body>\n</html>",
-                "changeState": ""
+                "content": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n        <title>Hello</title>\n    </head>\n    <body>\n        <h1>Hellozz</h1>\n    </body>\n</html>",
+                "changeState": "modified"
             },
             "app.css": {
                 "editor": true,
@@ -120,7 +120,11 @@
             ],
             "css": []
         },
-        "changesLog": {},
+        "changesLog": {
+            "edited": {
+                "index.html": 30
+            }
+        },
         "changeState": ""
     },
     "task2.kpg": {
@@ -268,6 +272,63 @@
         },
         "name": "task3.kpg",
         "caption": "task3.kpg",
+        "changesLog": {},
+        "changeState": ""
+    },
+    "task4.kpg": {
+        "files": {
+            "index.html": {
+                "content": "<p>Hello World </p>",
+                "changeState": "",
+                "editor": true,
+                "fileType": "code",
+                "fileName": "index.html",
+                "path": "index.html",
+                "url": "",
+                "src": "git",
+                "changeStatus": ""
+            },
+            "app.css": {
+                "content": "body {}",
+                "changeState": "",
+                "editor": true,
+                "fileType": "code",
+                "fileName": "app.css",
+                "path": "app.css",
+                "url": "",
+                "src": "git",
+                "changeStatus": ""
+            },
+            "app.js": {
+                "content": "//console.log('hello world')",
+                "changeState": "",
+                "editor": true,
+                "fileType": "code",
+                "fileName": "app.js",
+                "path": "app.js",
+                "url": "",
+                "src": "git",
+                "changeStatus": ""
+            },
+            "readme.md": {
+                "content": "This is a new playground, and make your best play here Ì†ΩÌ∏ç",
+                "changeState": "",
+                "editor": true,
+                "fileType": "code",
+                "fileName": "readme.md",
+                "path": "readme.md",
+                "url": "",
+                "src": "git",
+                "changeStatus": ""
+            }
+        },
+        "hash": "",
+        "lins": {
+            "scripts": [],
+            "css": []
+        },
+        "name": "task4.kpg",
+        "caption": "task4.kpg",
         "changesLog": {},
         "changeState": ""
     }

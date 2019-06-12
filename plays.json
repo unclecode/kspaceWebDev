@@ -14,7 +14,8 @@
                 "url": "https://cdn.jsdelivr.net/gh/unclecode/kspaceWebDev/task1.kpg/index.html",
                 "path": "index.html",
                 "content": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n        <title>Hello</title>\n    </head>\n    <body>\n        <h1>Hellozz</h1>\n    </body>\n</html>",
-                "changeState": "modified"
+                "changeState": "",
+                "changeStatus": ""
             },
             "app.css": {
                 "editor": true,
@@ -120,11 +121,7 @@
             ],
             "css": []
         },
-        "changesLog": {
-            "edited": {
-                "index.html": 30
-            }
-        },
+        "changesLog": {},
         "changeState": ""
     },
     "task2.kpg": {
@@ -393,7 +390,7 @@
         "files": {
             "index.html": {
                 "content": "<p>Hello World</p>",
-                "changeState": "",
+                "changeState": "removed",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "index.html",
@@ -404,7 +401,7 @@
             },
             "app.css": {
                 "content": "body {}",
-                "changeState": "",
+                "changeState": "removed",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "app.css",
@@ -415,7 +412,7 @@
             },
             "app.js": {
                 "content": "//console.log('hello world')",
-                "changeState": "",
+                "changeState": "removed",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "app.js",
@@ -426,7 +423,7 @@
             },
             "readme.md": {
                 "content": "This is a new playground, and make your best play here Ì†ΩÌ∏ç",
-                "changeState": "",
+                "changeState": "removed",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "readme.md",
@@ -444,6 +441,6 @@
         "name": "task6.kpg",
         "caption": "task6.kpg",
         "changesLog": {},
-        "changeState": ""
+        "changeState": "removed"
     }
 }

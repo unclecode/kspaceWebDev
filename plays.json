@@ -308,7 +308,7 @@
                 "changeStatus": ""
             },
             "readme.md": {
-                "content": "This is a new playground, and make your best play here ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ",
+                "content": "This is a new playground, and make your best play here Ì†ΩÌ∏ç",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -332,7 +332,7 @@
     "task5.kpg": {
         "files": {
             "index.html": {
-                "content": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>A simple deployment with the Now API!</title>\n    <link rel=\"stylesheet\" href=\"app.css\" />\n  </head>\n  <body>\n    <h1>Welcome to a simple static file</h1>\n    <p>\n      Deployed with <a href=\"https://zeit.co/docs/api\">ZEIT&apos;s Now API</a>!\n    </p>\n    <p>\n      This deployment includes three files. A static index.html file as the\n      homepage, a static style.css file for styling, and a date.js serverless\n      function that returns the date on invocation. Try\n      <a href=\"/server.js\">getting the date here.</a> Try\n      <a href=\"/server.py\">getting the date here.</a>\n    </p>\n  </body>\n</html>\n",
+                "content": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>A simple deployment with the Now API!</title>\n    <link rel=\"stylesheet\" href=\"app.css\" />\n  </head>\n  <body>\n    <h1>Welcome to awesome web app with NodeJs/Python backend from Kstudio</h1>\n    <p>\n      This deployment includes three files. A static index.html file as the\n      homepage, a static style.css file for styling, and a server.js serverless\n      function that returns the date on invocation. Try\n      <a href=\"/server.js\">getting the date here.</a>\n    </p>\n  </body>\n</html>\n",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -341,7 +341,7 @@
                 "url": "",
                 "src": "git",
                 "changeStatus": "",
-                "sha": "5746e1cf153d7708e5ca4969956be672a9df1a5e"
+                "sha": "618c124215ecda6e9e9a91082e0babc3134ca986"
             },
             "app.css": {
                 "content": "h1 {\n margin-top: 70px; \n text-align: center; \n font-size: 45px; \n} \n h1, p {\n font-family: Helvetica; \n} \n a {\n color: #0076FF; \n text-decoration: none; \n} \n p {\n text-align: center; \n font-size: 30px; \n} \n p:nth-child(3) { \n font-size: 25px; \n margin-left: 15%; \n margin-right: 15%; \n}",
@@ -365,7 +365,7 @@
                 "url": "",
                 "src": "git",
                 "changeStatus": "",
-                "sha": "f1e3386355c457240d7775119ba3c2a1719c3d59"
+                "sha": "e93d8eb31881207748261c2657c3763243581e89"
             },
             "server.js": {
                 "type": "added",

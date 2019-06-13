@@ -308,7 +308,7 @@
                 "changeStatus": ""
             },
             "readme.md": {
-                "content": "This is a new playground, and make your best play here ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
+                "content": "This is a new playground, and make your best play here í ½í¸",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -340,7 +340,8 @@
                 "path": "index.html",
                 "url": "",
                 "src": "git",
-                "changeStatus": ""
+                "changeStatus": "",
+                "sha": "5746e1cf153d7708e5ca4969956be672a9df1a5e"
             },
             "app.css": {
                 "content": "h1 {\n margin-top: 70px; \n text-align: center; \n font-size: 45px; \n} \n h1, p {\n font-family: Helvetica; \n} \n a {\n color: #0076FF; \n text-decoration: none; \n} \n p {\n text-align: center; \n font-size: 30px; \n} \n p:nth-child(3) { \n font-size: 25px; \n margin-left: 15%; \n margin-right: 15%; \n}",
@@ -351,10 +352,11 @@
                 "path": "app.css",
                 "url": "",
                 "src": "git",
-                "changeStatus": ""
+                "changeStatus": "",
+                "sha": "fd817991f164e76228acddc0df4b87d887151392"
             },
             "readme.md": {
-                "content": "This is a new playground, and make your best play here ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
+                "content": "This is a new playground,  and make your best play here ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -362,7 +364,8 @@
                 "path": "readme.md",
                 "url": "",
                 "src": "git",
-                "changeStatus": ""
+                "changeStatus": "",
+                "sha": "f1e3386355c457240d7775119ba3c2a1719c3d59"
             },
             "server.js": {
                 "type": "added",
@@ -376,7 +379,8 @@
                 "content": "module.exports = (req, res) => {\n  res.end(`The time is ${new Date()}`)\n}",
                 "url": "",
                 "changeState": "",
-                "changeStatus": ""
+                "changeStatus": "",
+                "sha": "bed6ae20de2ec9b74c6df69c815c9f853e545e9c"
             }
         },
         "hash": "",
@@ -387,6 +391,38 @@
         "name": "task5.kpg",
         "caption": "task5.kpg",
         "changesLog": {},
-        "changeState": ""
+        "changeState": "",
+        "now": {
+            "version": 2,
+            "name": "task5.kpg-kstudio",
+            "builds": [
+                {
+                    "src": "server.js",
+                    "use": "@now/node"
+                },
+                {
+                    "src": "*.html",
+                    "use": "@now/static"
+                },
+                {
+                    "src": "*.css",
+                    "use": "@now/static"
+                },
+                {
+                    "src": "server.py",
+                    "use": "@now/python"
+                },
+                {
+                    "src": "*.md",
+                    "use": "@now/md"
+                }
+            ],
+            "routes": [
+                {
+                    "src": "/",
+                    "dest": "www/index.html"
+                }
+            ]
+        }
     }
 }

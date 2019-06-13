@@ -308,7 +308,7 @@
                 "changeStatus": ""
             },
             "readme.md": {
-                "content": "This is a new playground, and make your best play here í ½í¸",
+                "content": "This is a new playground, and make your best play here ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -354,7 +354,7 @@
                 "changeStatus": ""
             },
             "readme.md": {
-                "content": "This is a new playground, and make your best play here í ½í¸",
+                "content": "This is a new playground, and make your best play here ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -377,19 +377,6 @@
                 "url": "",
                 "changeState": "",
                 "changeStatus": ""
-            },
-            "server.py": {
-                "type": "added",
-                "fileName": "server.py",
-                "locator": false,
-                "editor": true,
-                "src": "git",
-                "fileType": "code",
-                "path": "server.py",
-                "uploaded": false,
-                "content": "",
-                "url": "",
-                "changeState": "removed"
             }
         },
         "hash": "",

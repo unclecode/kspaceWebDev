@@ -332,8 +332,8 @@
     "task5.kpg": {
         "files": {
             "index.html": {
-                "content": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>A simple deployment with the Now API!</title>\n    <link rel=\"stylesheet\" href=\"app.css\" />\n  </head>\n  <body>\n    <h1>Welcome to awesome web app with NodeJs/Python backend from Kstudio</h1>\n    <p>\n      This deployment includes three files. A static index.html file as the\n      homepage, a static style.css file for styling, and a server.js serverless\n      function that returns the date on invocation. Try\n      <a href=\"/server.js\">getting the date here.</a>\n    </p>\n  </body>\n</html>\n",
-                "changeState": "",
+                "content": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>A simple deployment with the Now APIzzz!</title>\n    <link rel=\"stylesheet\" href=\"app.css\" />\n  </head>\n  <body>\n    <h1>Welcome to awesome web app with NodeJs/Python backend from Kstudio</h1>\n    <p>\n      This deployment includes three files. A static index.html file as the\n      homepage, a static style.css file for styling, and a server.js serverless\n      function that returns the date on invocation. Try\n      <a href=\"/server.js\">getting the date here.</a>\n    </p>\n  </body>\n</html>\n",
+                "changeState": "modified",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "index.html",

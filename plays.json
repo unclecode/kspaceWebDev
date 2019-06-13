@@ -332,7 +332,7 @@
     "task5.kpg": {
         "files": {
             "index.html": {
-                "content": "<p>Hello World</p>",
+                "content": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>A simple deployment with the Now API!</title>\n    <link rel=\"stylesheet\" href=\"app.css\" />\n  </head>\n  <body>\n    <h1>Welcome to a simple static file</h1>\n    <p>\n      Deployed with <a href=\"https://zeit.co/docs/api\">ZEIT&apos;s Now API</a>!\n    </p>\n    <p>\n      This deployment includes three files. A static index.html file as the\n      homepage, a static style.css file for styling, and a date.js serverless\n      function that returns the date on invocation. Try\n      <a href=\"/server.js\">getting the date here.</a> Try\n      <a href=\"/server.py\">getting the date here.</a>\n    </p>\n  </body>\n</html>\n",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -343,23 +343,12 @@
                 "changeStatus": ""
             },
             "app.css": {
-                "content": "body {}",
+                "content": "h1 {\n margin-top: 70px; \n text-align: center; \n font-size: 45px; \n} \n h1, p {\n font-family: Helvetica; \n} \n a {\n color: #0076FF; \n text-decoration: none; \n} \n p {\n text-align: center; \n font-size: 30px; \n} \n p:nth-child(3) { \n font-size: 25px; \n margin-left: 15%; \n margin-right: 15%; \n}",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "app.css",
                 "path": "app.css",
-                "url": "",
-                "src": "git",
-                "changeStatus": ""
-            },
-            "app.js": {
-                "content": "//console.log('hello world')",
-                "changeState": "",
-                "editor": true,
-                "fileType": "code",
-                "fileName": "app.js",
-                "path": "app.js",
                 "url": "",
                 "src": "git",
                 "changeStatus": ""
@@ -374,6 +363,33 @@
                 "url": "",
                 "src": "git",
                 "changeStatus": ""
+            },
+            "server.js": {
+                "type": "added",
+                "fileName": "server.js",
+                "locator": false,
+                "editor": true,
+                "src": "git",
+                "fileType": "code",
+                "path": "server.js",
+                "uploaded": false,
+                "content": "module.exports = (req, res) => {\n  res.end(`The time is ${new Date()}`)\n}",
+                "url": "",
+                "changeState": "",
+                "changeStatus": ""
+            },
+            "server.py": {
+                "type": "added",
+                "fileName": "server.py",
+                "locator": false,
+                "editor": true,
+                "src": "git",
+                "fileType": "code",
+                "path": "server.py",
+                "uploaded": false,
+                "content": "",
+                "url": "",
+                "changeState": "removed"
             }
         },
         "hash": "",

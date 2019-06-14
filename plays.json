@@ -433,6 +433,10 @@
                 "server.js": {
                     "sha": "bed6ae20de2ec9b74c6df69c815c9f853e545e9c"
                 }
+            },
+            "changes": {
+                "add": [],
+                "remove": []
             }
         }
     }

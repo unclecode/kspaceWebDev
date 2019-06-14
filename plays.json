@@ -394,12 +394,8 @@
         "changeState": "",
         "nowJson": {
             "version": 2,
-            "name": "task5.kpg-kstudio",
+            "name": "task5.kpg-kstudiozzzzz",
             "builds": [
-                {
-                    "src": "server.js",
-                    "use": "@now/node"
-                },
                 {
                     "src": "*.html",
                     "use": "@now/static"
@@ -409,20 +405,134 @@
                     "use": "@now/static"
                 },
                 {
-                    "src": "server.py",
-                    "use": "@now/python"
-                },
-                {
                     "src": "*.md",
                     "use": "@now/md"
-                }
-            ],
-            "routes": [
+                },
                 {
-                    "src": "/",
-                    "dest": "www/index.html"
+                    "src": "server.js",
+                    "use": "@now/node"
                 }
             ]
+        },
+        "publish": {
+            "repo": {
+                "id": 191914050,
+                "node_id": "MDEwOlJlcG9zaXRvcnkxOTE5MTQwNTA=",
+                "name": "task5.kpg-kstudiozz",
+                "full_name": "unclecode/task5.kpg-kstudiozz",
+                "private": false,
+                "owner": {
+                    "login": "unclecode",
+                    "id": 12494079,
+                    "node_id": "MDQ6VXNlcjEyNDk0MDc5",
+                    "avatar_url": "https://avatars0.githubusercontent.com/u/12494079?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/unclecode",
+                    "html_url": "https://github.com/unclecode",
+                    "followers_url": "https://api.github.com/users/unclecode/followers",
+                    "following_url": "https://api.github.com/users/unclecode/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/unclecode/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/unclecode/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/unclecode/subscriptions",
+                    "organizations_url": "https://api.github.com/users/unclecode/orgs",
+                    "repos_url": "https://api.github.com/users/unclecode/repos",
+                    "events_url": "https://api.github.com/users/unclecode/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/unclecode/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/unclecode/task5.kpg-kstudiozz",
+                "description": "New kportal workspace í ¾í´“",
+                "fork": false,
+                "url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz",
+                "forks_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/forks",
+                "keys_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/teams",
+                "hooks_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/hooks",
+                "issue_events_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/events",
+                "assignees_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/tags",
+                "blobs_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/languages",
+                "stargazers_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/stargazers",
+                "contributors_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/contributors",
+                "subscribers_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/subscribers",
+                "subscription_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/subscription",
+                "commits_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/merges",
+                "archive_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/downloads",
+                "issues_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/labels{/name}",
+                "releases_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/unclecode/task5.kpg-kstudiozz/deployments",
+                "created_at": "2019-06-14T09:20:41Z",
+                "updated_at": "2019-06-14T09:20:41Z",
+                "pushed_at": "2019-06-14T09:20:42Z",
+                "git_url": "git://github.com/unclecode/task5.kpg-kstudiozz.git",
+                "ssh_url": "git@github.com:unclecode/task5.kpg-kstudiozz.git",
+                "clone_url": "https://github.com/unclecode/task5.kpg-kstudiozz.git",
+                "svn_url": "https://github.com/unclecode/task5.kpg-kstudiozz",
+                "homepage": "https://kportal.kidocode.com",
+                "size": 0,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": true,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": true,
+                "has_pages": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "master",
+                "permissions": {
+                    "admin": true,
+                    "push": true,
+                    "pull": true
+                },
+                "allow_squash_merge": true,
+                "allow_merge_commit": true,
+                "allow_rebase_merge": true,
+                "network_count": 0,
+                "subscribers_count": 0
+            },
+            "files": {
+                "index.html": {
+                    "sha": "bd63b809922b0d4ee6600885fa98a502079bfbd3"
+                },
+                "app.css": {
+                    "sha": "fd817991f164e76228acddc0df4b87d887151392"
+                },
+                "readme.md": {
+                    "sha": "e93d8eb31881207748261c2657c3763243581e89"
+                },
+                "server.js": {
+                    "sha": "bed6ae20de2ec9b74c6df69c815c9f853e545e9c"
+                }
+            }
         }
     }
 }

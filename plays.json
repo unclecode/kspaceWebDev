@@ -413,6 +413,27 @@
                     "use": "@now/node"
                 }
             ]
+        },
+        "publish": {
+            "repo": {
+                "id": 191917124,
+                "name": "task5.kpg-kstudio123",
+                "node_id": "MDEwOlJlcG9zaXRvcnkxOTE5MTcxMjQ="
+            },
+            "files": {
+                "index.html": {
+                    "sha": "bd63b809922b0d4ee6600885fa98a502079bfbd3"
+                },
+                "app.css": {
+                    "sha": "fd817991f164e76228acddc0df4b87d887151392"
+                },
+                "readme.md": {
+                    "sha": "e93d8eb31881207748261c2657c3763243581e89"
+                },
+                "server.js": {
+                    "sha": "bed6ae20de2ec9b74c6df69c815c9f853e545e9c"
+                }
+            }
         }
     }
 }

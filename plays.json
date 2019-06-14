@@ -332,7 +332,7 @@
     "task5.kpg": {
         "files": {
             "index.html": {
-                "content": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>A simple deployment with the Now APIzzz!</title>\n    <link rel=\"stylesheet\" href=\"app.css\" />\n  </head>\n  <body>\n    <h1>Welcome to awesome web app with NodeJs/Python backend from Kstudio</h1>\n    <h2>Helloooooo 123456 </h2>\n    <p>\n      This deployment includes three files. A static index.html file as the\n      homepage, a static style.css file for styling, and a server.js serverless\n      function that returns the date on invocation. Try\n      <a href=\"/server.js\">getting the date here.</a>\n    </p>\n  </body>\n</html>\n",
+                "content": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>A simple deployment with the Now APIzzz!</title>\n    <link rel=\"stylesheet\" href=\"app.css\" />\n  </head>\n  <body>\n    <h1>Welcome to awesome web app with NodeJs/Python backend from Kstudio</h1>\n    <h2>Helloooooo 123456666 </h2>\n    <p>\n      This deployment includes three files. A static index.html file as the\n      homepage, a static style.css file for styling, and a server.js serverless\n      function that returns the date on invocation. Try\n      <a href=\"/server.js\">getting the date here.</a>\n    </p>\n  </body>\n</html>\n",
                 "changeState": "modified",
                 "editor": true,
                 "fileType": "code",
@@ -400,7 +400,7 @@
             },
             "files": {
                 "index.html": {
-                    "sha": "b0232cb66fa4847520cf21dcd36dbf56522d87dc"
+                    "sha": "33c37c5b531d3dd0b11ee834698f012d78eef841"
                 },
                 "app.css": {
                     "sha": "fd817991f164e76228acddc0df4b87d887151392"

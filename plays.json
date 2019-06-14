@@ -332,7 +332,7 @@
     "task5.kpg": {
         "files": {
             "index.html": {
-                "content": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>A simple deployment with the Now APIzzz!</title>\n    <link rel=\"stylesheet\" href=\"app.css\" />\n  </head>\n  <body>\n    <h1>Welcome to awesome web app with NodeJs/Python backend from Kstudio</h1>\n    <h2>Helloooooo 123 </h2>\n    <p>\n      This deployment includes three files. A static index.html file as the\n      homepage, a static style.css file for styling, and a server.js serverless\n      function that returns the date on invocation. Try\n      <a href=\"/server.js\">getting the date here.</a>\n    </p>\n  </body>\n</html>\n",
+                "content": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>A simple deployment with the Now APIzzz!</title>\n    <link rel=\"stylesheet\" href=\"app.css\" />\n  </head>\n  <body>\n    <h1>Welcome to awesome web app with NodeJs/Python backend from Kstudio</h1>\n    <h2>Helloooooo 123456 </h2>\n    <p>\n      This deployment includes three files. A static index.html file as the\n      homepage, a static style.css file for styling, and a server.js serverless\n      function that returns the date on invocation. Try\n      <a href=\"/server.js\">getting the date here.</a>\n    </p>\n  </body>\n</html>\n",
                 "changeState": "modified",
                 "editor": true,
                 "fileType": "code",
@@ -341,7 +341,7 @@
                 "url": "",
                 "src": "git",
                 "changeStatus": "",
-                "sha": "618c124215ecda6e9e9a91082e0babc3134ca986"
+                "sha": "33c37c5b531d3dd0b11ee834698f012d78eef841"
             },
             "app.css": {
                 "content": "h1 {\n margin-top: 70px; \n text-align: center; \n font-size: 45px; \n} \n h1, p {\n font-family: Helvetica; \n} \n a {\n color: #0076FF; \n text-decoration: none; \n} \n p {\n text-align: center; \n font-size: 30px; \n} \n p:nth-child(3) { \n font-size: 25px; \n margin-left: 15%; \n margin-right: 15%; \n}",

@@ -407,9 +407,33 @@
         "caption": "task5.kpg",
         "changesLog": {},
         "changeState": "",
+        "publish": {
+            "now": {
+                "url": "https://task5.kpg-kstudio.unlcecode.now.sh"
+            },
+            "repo": {
+                "id": 192028342,
+                "name": "task5.kpg-kstudio",
+                "node_id": "MDEwOlJlcG9zaXRvcnkxOTIwMjgzNDI="
+            },
+            "files": {
+                "index.html": {
+                    "sha": "60d5763c6100bcf3be7813aa6c939f52aec0c5e9"
+                },
+                "app.css": {
+                    "sha": "fd817991f164e76228acddc0df4b87d887151392"
+                },
+                "readme.md": {
+                    "sha": "e93d8eb31881207748261c2657c3763243581e89"
+                },
+                "server.js": {
+                    "sha": "bed6ae20de2ec9b74c6df69c815c9f853e545e9c"
+                }
+            }
+        },
         "nowJson": {
             "version": 2,
-            "name": "task5.kpg-kstudio123zzz",
+            "name": "task5.kpg-kstudiozzz",
             "builds": [
                 {
                     "src": "*.html",

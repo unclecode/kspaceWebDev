@@ -285,53 +285,6 @@
                 "src": "git",
                 "changeStatus": ""
             },
-            "app.css": {
-                "content": "body {}",
-                "changeState": "removed",
-                "editor": true,
-                "fileType": "code",
-                "fileName": "app.css",
-                "path": "app.css",
-                "url": "",
-                "src": "git",
-                "changeStatus": ""
-            },
-            "app.js": {
-                "content": "//console.log('hello world')",
-                "changeState": "removed",
-                "editor": true,
-                "fileType": "code",
-                "fileName": "app.js",
-                "path": "app.js",
-                "url": "",
-                "src": "git",
-                "changeStatus": ""
-            },
-            "readme.md": {
-                "content": "This is a new playground, and make your best play here Ì†ΩÌ∏ç",
-                "changeState": "removed",
-                "editor": true,
-                "fileType": "code",
-                "fileName": "readme.md",
-                "path": "readme.md",
-                "url": "",
-                "src": "git",
-                "changeStatus": ""
-            },
-            "test1.js": {
-                "type": "added",
-                "fileName": "test1",
-                "locator": false,
-                "editor": true,
-                "src": "git",
-                "fileType": "code",
-                "path": "test1.js",
-                "uploaded": false,
-                "content": "/* test.js Ì†æÌ¥ìÌ†ΩÌ±ç */",
-                "url": "",
-                "changeState": "removed",
-                "oldPath": "test.js"
-            },
             "Pipfile": {
                 "type": "added",
                 "fileName": "Pipfile",
@@ -390,31 +343,22 @@
                 "url": "https://task4.kpg-kstudio.unlcecode.now.sh"
             },
             "repo": {
-                "id": 192067441,
+                "id": 192071725,
                 "name": "task4.kpg-kstudio",
-                "node_id": "MDEwOlJlcG9zaXRvcnkxOTIwNjc0NDE="
+                "node_id": "MDEwOlJlcG9zaXRvcnkxOTIwNzE3MjU="
             },
             "files": {
                 "index.html": {
                     "sha": "61f5df3abb64263f7ab9791a568bc7d8652ce4bb"
                 },
-                "app.css": {
-                    "sha": "2d91681f81650e8547ad94d5d21626e21474aae0"
-                },
-                "app.js": {
-                    "sha": "9dc752d7e03930467d4ea4aa2feb2218b72bf05a"
-                },
-                "readme.md": {
-                    "sha": "f1e3386355c457240d7775119ba3c2a1719c3d59"
-                },
-                "test1.js": {
-                    "sha": "1c72e65aff26ff9018f65f2cac4acbd4efc91e19"
-                },
                 "Pipfile": {
                     "sha": "58e87ccbbc90b030cb62bb1a420570d67f009d6f"
                 },
-                "server.py": {
-                    "sha": "efb8bd9c0e13a2e3ae867aa8a8f5759babd8211e"
+                "index.py": {
+                    "sha": "4d89fb6fac9973f47d51290da2be85e1e97a43ef"
+                },
+                "Pipfile.lock": {
+                    "sha": "52b6b3d8782964aeb76c259e8592c446c1aeb760"
                 }
             }
         },
@@ -427,28 +371,16 @@
                     "use": "@now/static"
                 },
                 {
-                    "src": "*.css",
-                    "use": "@now/static"
-                },
-                {
-                    "src": "*.js",
-                    "use": "@now/static"
-                },
-                {
-                    "src": "*.md",
-                    "use": "@now/md"
-                },
-                {
-                    "src": "*.js",
-                    "use": "@now/static"
-                },
-                {
                     "src": "*.Pipfile",
                     "use": "@now/static"
                 },
                 {
-                    "src": "server.py",
-                    "use": "@now/python"
+                    "src": "*.py",
+                    "use": "@now/static"
+                },
+                {
+                    "src": "*.lock",
+                    "use": "@now/static"
                 }
             ]
         }

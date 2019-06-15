@@ -317,6 +317,20 @@
                 "url": "",
                 "src": "git",
                 "changeStatus": ""
+            },
+            "test1.js": {
+                "type": "added",
+                "fileName": "test1",
+                "locator": false,
+                "editor": true,
+                "src": "git",
+                "fileType": "code",
+                "path": "test1.js",
+                "uploaded": false,
+                "content": "/* test.js Ì†æÌ¥ìÌ†ΩÌ±ç */",
+                "url": "",
+                "changeState": "removed",
+                "oldPath": "test.js"
             }
         },
         "hash": "",
@@ -400,7 +414,7 @@
             },
             "files": {
                 "index.html": {
-                    "sha": "3161294b8d77dcdcfdf147d7bd8dd0dc97bfb0ab"
+                    "sha": "60d5763c6100bcf3be7813aa6c939f52aec0c5e9"
                 },
                 "app.css": {
                     "sha": "fd817991f164e76228acddc0df4b87d887151392"

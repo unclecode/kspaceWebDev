@@ -425,9 +425,9 @@
                 "url": "https://task5.kpg-kstudio.unlcecode.now.sh"
             },
             "repo": {
-                "id": 192031748,
+                "id": 192032762,
                 "name": "task5.kpg-kstudio",
-                "node_id": "MDEwOlJlcG9zaXRvcnkxOTIwMzE3NDg="
+                "node_id": "MDEwOlJlcG9zaXRvcnkxOTIwMzI3NjI="
             },
             "files": {
                 "index.html": {
@@ -469,7 +469,7 @@
                 },
                 {
                     "src": "server.py",
-                    "use": "@now/pyhon"
+                    "use": "@now/python"
                 }
             ]
         }

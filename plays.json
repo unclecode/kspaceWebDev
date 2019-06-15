@@ -276,15 +276,14 @@
         "files": {
             "index.html": {
                 "content": "<p>Hello Worldzz</p>",
-                "changeState": "modified",
+                "changeState": "",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "index.html",
                 "path": "index.html",
                 "url": "",
                 "src": "git",
-                "changeStatus": "",
-                "sha": "61f5df3abb64263f7ab9791a568bc7d8652ce4bb"
+                "changeStatus": ""
             },
             "app.css": {
                 "content": "body {}",
@@ -332,6 +331,34 @@
                 "url": "",
                 "changeState": "removed",
                 "oldPath": "test.js"
+            },
+            "Pipfile": {
+                "type": "added",
+                "fileName": "Pipfile",
+                "locator": false,
+                "editor": true,
+                "src": "git",
+                "fileType": "code",
+                "path": "Pipfile",
+                "uploaded": false,
+                "content": "[[source]]\nname = \"pypi\"\nurl = \"https://pypi.org/simple\"\nverify_ssl = true\n\n[dev-packages]\n\n[packages]\nflask = \"*\"\n\n[requires]\npython_version = \"3.6\"",
+                "url": "",
+                "changeState": "",
+                "changeStatus": ""
+            },
+            "server.py": {
+                "type": "added",
+                "fileName": "server.py",
+                "locator": false,
+                "editor": true,
+                "src": "git",
+                "fileType": "code",
+                "path": "server.py",
+                "uploaded": false,
+                "content": "from flask import Flask\napp = Flask(__name__)\n\n@app.route(\"/\")\ndef index():\n    return \"Hello Damn New World\"",
+                "url": "",
+                "changeState": "",
+                "changeStatus": ""
             }
         },
         "hash": "",

@@ -419,6 +419,59 @@
         "name": "task5.kpg",
         "caption": "task5.kpg",
         "changesLog": {},
-        "changeState": ""
+        "changeState": "",
+        "publish": {
+            "now": {
+                "url": "https://task5.kpg-kstudio.unlcecode.now.sh"
+            },
+            "repo": {
+                "id": 192031748,
+                "name": "task5.kpg-kstudio",
+                "node_id": "MDEwOlJlcG9zaXRvcnkxOTIwMzE3NDg="
+            },
+            "files": {
+                "index.html": {
+                    "sha": "60d5763c6100bcf3be7813aa6c939f52aec0c5e9"
+                },
+                "app.css": {
+                    "sha": "fd817991f164e76228acddc0df4b87d887151392"
+                },
+                "readme.md": {
+                    "sha": "e93d8eb31881207748261c2657c3763243581e89"
+                },
+                "server.js": {
+                    "sha": "bed6ae20de2ec9b74c6df69c815c9f853e545e9c"
+                },
+                "server.py": {
+                    "sha": "a2e95fb8dee8eece654ef473462c64e7c397f130"
+                }
+            }
+        },
+        "nowJson": {
+            "version": 2,
+            "name": "task5.kpg-kstudio",
+            "builds": [
+                {
+                    "src": "*.html",
+                    "use": "@now/static"
+                },
+                {
+                    "src": "*.css",
+                    "use": "@now/static"
+                },
+                {
+                    "src": "*.md",
+                    "use": "@now/md"
+                },
+                {
+                    "src": "server.js",
+                    "use": "@now/node"
+                },
+                {
+                    "src": "server.py",
+                    "use": "@now/pyhon"
+                }
+            ]
+        }
     }
 }

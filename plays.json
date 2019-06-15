@@ -275,15 +275,16 @@
     "task4.kpg": {
         "files": {
             "index.html": {
-                "content": "<p>Hello World </p>",
-                "changeState": "",
+                "content": "<p>Hello Worldzz</p>",
+                "changeState": "modified",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "index.html",
                 "path": "index.html",
                 "url": "",
                 "src": "git",
-                "changeStatus": ""
+                "changeStatus": "",
+                "sha": "61f5df3abb64263f7ab9791a568bc7d8652ce4bb"
             },
             "app.css": {
                 "content": "body {}",

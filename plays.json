@@ -258,19 +258,6 @@
                 "changeState": "",
                 "sha": "4a379ee69c568ea534015a437ee461c2c46a00b8",
                 "changeStatus": ""
-            },
-            "appzzz.js": {
-                "content": "console.log('hello worldzzzz')",
-                "changeState": "",
-                "editor": true,
-                "fileType": "code",
-                "fileName": "appzzz.js",
-                "path": "appzzz.js",
-                "url": "",
-                "src": "git",
-                "changeStatus": "",
-                "oldPath": "appzz.js",
-                "sha": "e4a7e29aa0074915dfdcd57ab61a8d3ecadec430"
             }
         },
         "hash": "",

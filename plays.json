@@ -228,38 +228,43 @@
                 "src": "git",
                 "changeStatus": ""
             },
-            "app.css": {
-                "content": "body {}",
-                "changeState": "",
+            "index.py": {
+                "type": "added",
+                "fileName": "index.py",
+                "locator": false,
                 "editor": true,
-                "fileType": "code",
-                "fileName": "app.css",
-                "path": "app.css",
-                "url": "",
                 "src": "git",
-                "changeStatus": ""
+                "fileType": "code",
+                "path": "index.py",
+                "uploaded": false,
+                "content": "# print \"Hello World\"",
+                "url": "",
+                "changeState": "added"
             },
-            "app.js": {
+            "Pipfile.lock": {
+                "type": "added",
+                "fileName": "Pipfile.lock",
+                "locator": false,
+                "editor": true,
+                "src": "git",
+                "fileType": "code",
+                "path": "Pipfile.lock",
+                "uploaded": false,
+                "content": "Pipfile.lock",
+                "url": "",
+                "changeState": "added"
+            },
+            "appzzz.js": {
                 "content": "console.log('hello worldzzzz')",
-                "changeState": "",
+                "changeState": "added",
                 "editor": true,
                 "fileType": "code",
-                "fileName": "app.js",
-                "path": "app.js",
+                "fileName": "appzzz.js",
+                "path": "appzzz.js",
                 "url": "",
                 "src": "git",
-                "changeStatus": ""
-            },
-            "readme.md": {
-                "content": "This is a new playground, and make your best play here.123",
-                "changeState": "",
-                "editor": true,
-                "fileType": "code",
-                "fileName": "readme.md",
-                "path": "readme.md",
-                "url": "",
-                "src": "git",
-                "changeStatus": ""
+                "changeStatus": "",
+                "oldPath": "appzz.js"
             }
         },
         "hash": "",
@@ -270,7 +275,8 @@
         "name": "task3.kpg",
         "caption": "task3.kpg",
         "changesLog": {},
-        "changeState": ""
+        "changeState": "",
+        "pushed": true
     },
     "task4.kpg": {
         "files": {
@@ -472,7 +478,7 @@
             },
             "files": {
                 "index.html": {
-                    "sha": "60d5763c6100bcf3be7813aa6c939f52aec0c5e9"
+                    "sha": "b0635559e42c0c1a25f729411acb1ed81524990c"
                 },
                 "app.css": {
                     "sha": "fd817991f164e76228acddc0df4b87d887151392"

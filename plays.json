@@ -237,7 +237,7 @@
                 "fileType": "code",
                 "path": "index.py",
                 "uploaded": false,
-                "content": "# print \"Hello World \" ",
+                "content": "# print \"Hello World\" ",
                 "url": "",
                 "changeState": "added"
             },
@@ -250,12 +250,12 @@
                 "fileType": "code",
                 "path": "Pipfile.lock",
                 "uploaded": false,
-                "content": "Pipfile.lock 44",
+                "content": "Pipfile.lock",
                 "url": "",
-                "changeState": ""
+                "changeState": "modified"
             },
             "appzzz.js": {
-                "content": "console.log('hello worldzzzz ')",
+                "content": "console.log('hello worldzzzz')",
                 "changeState": "added",
                 "editor": true,
                 "fileType": "code",
@@ -277,9 +277,14 @@
         "changesLog": {
             "removed": {
                 "appzzz.js": 1
+            },
+            "edited": {
+                "appzzz.js": 1,
+                "index.py": 1,
+                "Pipfile.lock": 3
             }
         },
-        "changeState": "",
+        "changeState": "added",
         "pushed": true
     },
     "task4.kpg": {

@@ -218,7 +218,7 @@
     "task3.kpg": {
         "files": {
             "index.html": {
-                "content": "<p>Hello World 123</p>",
+                "content": "<p>Hello World</p>",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -227,7 +227,7 @@
                 "url": "",
                 "src": "git",
                 "changeStatus": "",
-                "sha": "6fa312419b5e96135e1da933fc87f4df1d70c839"
+                "sha": "92f9a3de160337a5b33a4a04b06fb339f56d45ae"
             },
             "index.py": {
                 "type": "added",

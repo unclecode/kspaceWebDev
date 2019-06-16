@@ -218,8 +218,8 @@
     "task3.kpg": {
         "files": {
             "index.html": {
-                "content": "<p>Hello World</p>",
-                "changeState": "",
+                "content": "<p>Hello World </p>",
+                "changeState": "modified",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "index.html",
@@ -237,9 +237,9 @@
                 "fileType": "code",
                 "path": "index.py",
                 "uploaded": false,
-                "content": "# print \"Hello World\"",
+                "content": "# print \"Hello World \" ",
                 "url": "",
-                "changeState": "added"
+                "changeState": "modified"
             },
             "Pipfile.lock": {
                 "type": "added",
@@ -250,13 +250,13 @@
                 "fileType": "code",
                 "path": "Pipfile.lock",
                 "uploaded": false,
-                "content": "Pipfile.lock",
+                "content": "Pipfile.lock 44",
                 "url": "",
-                "changeState": "added"
+                "changeState": "modified"
             },
             "appzzz.js": {
-                "content": "console.log('hello worldzzzz')",
-                "changeState": "added",
+                "content": "console.log('hello worldzzzz ')",
+                "changeState": "modified",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "appzzz.js",
